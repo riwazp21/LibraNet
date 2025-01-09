@@ -86,7 +86,33 @@ To compile the server and client, run:
 ```bash
 make
 ```
-
+### Configuration
+- **Server Configuration (`server.conf`)**:
+  ```plaintext
+  TCP_PORT=[enter a relevant port]
+  HEARTBEAT_INTERVAL=[enter the frequency of heartbeat]
+  STATS_INTERVAL=[enter the frequency of statistics]
+  ```
+- **Client Configuration (`client.conf`)**:
+  ```plaintext
+  SERVER_IP=[enter the server's IP address]
+  SERVER_PORT=[enter the server's port]
+  ```
+### Usage
+Run the following command to compile the server and client
+```plaintext
+make
+```
+### Running the server
+```plaintext
+./server server.conf
+```
+### Running the client
+```plaintext
+./client client.conf
+```
+## Generating a secured key for both client and server
+Generate self-signed certificates for testing using OpenSSL’s command-line tools. Ensure your generated files are named p3server.key and p3server.crt
 ## Development Environment
 This project was developed and tested on a Linux server using vim and related utilities. Wireshark and tshark were used to validate secure communication and debug network interactions.
 
