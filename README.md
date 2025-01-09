@@ -1,4 +1,4 @@
-# Library Book Management System
+# LibraNet
 
 ## Overview
 This project is a simplified Library Book Management System implemented as a basic client-server application using the socket interface. The system enables functionalities such as searching for books, managing borrowed books, and providing recommendations. This assignment introduces key networking concepts like client-server architecture, socket programming, and secure communication. 
