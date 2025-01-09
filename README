@@ -1,0 +1,6 @@
+To run this project, use the command: make
+This will run the Makefile and create the executables: server and client
+Edit the server.conf file to have your port number
+Edit the client.conf file to have your server IP address and port number 
+Run the server first by using the following command: ./server server.conf
+Then run the client executables in different containers using the following command: ./client client.conf
